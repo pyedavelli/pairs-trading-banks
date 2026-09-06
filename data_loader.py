@@ -55,7 +55,7 @@ SPLIT_DATE = '2021-01-01'
 # Path to the data cache folder. Path(__file__) gives this file's location,
 # .parent goes up one level (to /src), .parent.parent goes up to project root,
 # then we append /data to land in the cache folder.
-DATA_DIR = Path(__file__).parent.parent / 'data'
+DATA_DIR = Path(__file__).parent / 'data'
 DATA_DIR.mkdir(exist_ok=True)  # Create the folder if it doesn't exist yet
 
 
