@@ -24,7 +24,7 @@ import pandas as pd
 from pathlib import Path
 
 # Output directory for saved charts. Resolves to <project_root>/results.
-RESULTS_DIR = Path(__file__).parent.parent / 'results'
+RESULTS_DIR = Path(__file__).parent / 'results'
 RESULTS_DIR.mkdir(exist_ok=True)
 
 
